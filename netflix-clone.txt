@@ -1,0 +1,44 @@
+PROJECTS - REACTJS
+1. Netflix Clone - Done
+2. Spotify Clone
+
+Build Notes and Steps for building the Netflix Clone. 
+1. Get TMDB API key  (done)
+2. Create the React App (done)
+3. Setup Firebase hosting (https://netflix-clone-f62f8.web.app)
+4. Get all Movies endpoints 
+5. Build the Rows(containing the movie posters in a scrollable form) (done)
+6. Build the Banner
+7. Build the Navbar component
+8. Add trailer pop-up
+9. Deploy to firebase.
+
+Notes
+1. Create a request helper which will contain the api_key and the fetchURLs for all the 
+categories. (done)
+2. install axios(which is similar to fetch() in react), this would be used to make request to the API endpoints. (done)
+3. Create an axios file that would be used to make the request.
+4. Using useEffect hook, create a function that fetches the movies when the page loads, then
+5. Save the loaded data into a useState hook.
+6. filter out the poster images
+7. style the Rows and its content
+8. Create the Banner component.
+9. Create the Navbar component
+10. creating the trailer pop-up 
+    /// install react-youtube
+    /// install movie-trailer
+11. Deploy to firebase
+ // Login to firebase from terminal (firebase login)
+ // run (firebase init)
+ // run (npm run build)
+ // run (firebase deploy)
+
+
+
+ SPOTIFY CLONE (2:25)
+ 1. User Authentication
+ 2. Spotify API
+ 3. Responsive designs
+ 4. Material UI(icons)   
+ 5. React Context API (like REDUX)
+
